@@ -25,7 +25,7 @@ array.unshift('watermelon');
 
 console.log(array.length);
 
-array.splice(2,1, 'mango');
+array.splice(2,0, 'mango');
 
 array.shift();
 array.pop();
